@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/uploads/(.*)", "dest": "/upload/upload/$1" },
+    { "src": "/api/uploads/(.*)", "dest": "/api/upload/upload/$1" },
     { "src": "/api/(.*)", "dest": "/api/api/$1" },
     { "src": "/ini/(.*)", "dest": "/api/ini/$1" },
     { "src": "/ext/(.*)", "dest": "/api/ext/$1" },
